@@ -1,0 +1,19 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "This is a simple JavaScript Library that helps generate fake data that helps in running your development effeciently",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mogakamo/fake-data.git"
+  },
+  "author": "Mogaka Amos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mogakamo/fake-data/issues"
+  },
+  "homepage": "https://github.com/Mogakamo/fake-data#readme"
+}
