@@ -1,19 +1,33 @@
 {
-  "name": "fake-data",
-  "version": "1.0.0",
+  "name": "fake-data.js",
+  "version": "0.0.0-development",
   "description": "This is a simple JavaScript Library that helps generate fake data that helps in running your development effeciently",
   "main": "index.js",
   "scripts": {
-    "test": "npm run tests"
+    "test": "npm run tests",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mogakamo/fake-data.git"
+    "url": "https://github.com/Mogakamo/fake-data.git"
   },
   "author": "Mogaka Amos",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mogakamo/fake-data/issues"
   },
-  "homepage": "https://github.com/Mogakamo/fake-data#readme"
+  "homepage": "https://github.com/Mogakamo/fake-data#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "rollup": "^2.64.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^4.5.4",
+    "semantic-release": "^18.0.1"
+  }
 }
